@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2015 Leo Feyer
+ * Copyright (C) 2005-2016 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,25 +21,25 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  Cliff Parnitzky 2015-2015
+ * @copyright  Cliff Parnitzky 2016-2016
  * @author     Cliff Parnitzky
- * @package    TinyMceZUpAll
+ * @package    RscTinyMceZUpAll
  * @license    LGPL
  */
 
 /**
  * Run in a custom namespace, so the class can be replaced
  */
-namespace TinyMceZUpAll;
+namespace RscTinyMceZUpAll;
 
 /**
-* Class TinyMceZUpAll
+* Class RscTinyMceZUpAll
 *
 * Class to implement the HOOK for adding configs.
-* @copyright  Cliff Parnitzky 2015-2015
+* @copyright  Cliff Parnitzky 2016-2016
 * @author     Cliff Parnitzky
 */
-class TinyMceZUpAll {
+class RscTinyMceZUpAll {
 	
 	/**
 	 * Adding config for output behavoir
@@ -47,8 +47,8 @@ class TinyMceZUpAll {
 	public function editTinyMcePluginLoaderConfig ($arrTinyConfig) {
 		
 		$arrTinyConfig["toolbar1"] = '"newdocument | anchor | link unlink | image | subscript superscript | abbr | searchreplace  | undo redo | removeformat | code",';
-		$arrTinyConfig["toolbar2"] = '"formatselect fontselect fontsizeselect styleselect | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | indent outdent",';
-		$arrTinyConfig["toolbar3"] = '"table | template | forecolor backcolor | hr pagebreak | blockquote | bullist numlist | youtube | charmap emoticons | fontawesome | insertdatetime",';
+		$arrTinyConfig["toolbar2"] = '"formatselect fontsizeselect styleselect | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | indent outdent",';
+		$arrTinyConfig["toolbar3"] = '"table | template | forecolor backcolor | hr pagebreak | blockquote | bullist numlist | youtube | charmap emoticons triathlonicons | fontawesome | insertdatetime",';
 		$arrTinyConfig["fontsize_formats"] = '"8px 9px 10px 11px 12px 13px 14px 15px 16px 17px 18px 19px 20px 21px 22px 23px 24px 28px 32px 36px 40px",';
 		   
 		return $arrTinyConfig;

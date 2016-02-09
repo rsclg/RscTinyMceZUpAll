@@ -3,9 +3,9 @@
 /**
  * Contao Open Source CMS
  *
- * Copyright (c) 2005-2015 Leo Feyer
+ * Copyright (c) 2005-2016 Leo Feyer
  *
- * @package TinyMceZUpAll
+ * @package RscTinyMceZUpAll
  * @link    https://contao.org
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  */
@@ -16,7 +16,7 @@
  */
 ClassLoader::addNamespaces(array
 (
-	'TinyMceZUpAll',
+	'RscTinyMceZUpAll',
 ));
 
 
@@ -26,5 +26,5 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Classes
-	'TinyMceZUpAll\TinyMceZUpAll' => 'system/modules/TinyMceZUpAll/classes/TinyMceZUpAll.php',
+	'RscTinyMceZUpAll\RscTinyMceZUpAll' => 'system/modules/RscTinyMceZUpAll/classes/RscTinyMceZUpAll.php',
 ));

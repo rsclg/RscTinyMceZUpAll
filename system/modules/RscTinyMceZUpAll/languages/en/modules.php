@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2015 Leo Feyer
+ * Copyright (C) 2005-2016 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,15 +21,15 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  Cliff Parnitzky 2015-2015
+ * @copyright  Cliff Parnitzky 2016-2016
  * @author     Cliff Parnitzky
- * @package    TinyMceZUpAll
+ * @package    RscTinyMceZUpAll
  * @license    LGPL
  */
 
 /**
  * Define name and tooltip for preferences (inactive modules)
  */
-$GLOBALS['TL_LANG']['MOD']['TinyMceZUpAll'] = array('TinyMCE All Setup', 'Spezielles TinyMCE Setup das die Toolbars mit allen bekannten Buttons erstellt.');
+$GLOBALS['TL_LANG']['MOD']['RscTinyMceZUpAll'] = array('RSC TinyMCE All Setup', 'Special RSC TinyMCE setup which creates the toolbars with all known buttons.');
 
 ?>

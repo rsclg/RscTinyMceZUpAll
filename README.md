@@ -1,11 +1,11 @@
-[![Latest Version on Packagist](http://img.shields.io/packagist/v/cliffparnitzky/tiny-mce-setup-all.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/tiny-mce-setup-all)
-[![Installations via composer per month](http://img.shields.io/packagist/dm/cliffparnitzky/tiny-mce-setup-all.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/tiny-mce-setup-all)
-[![Installations via composer total](http://img.shields.io/packagist/dt/cliffparnitzky/tiny-mce-setup-all.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/tiny-mce-setup-all)
+[![Latest Version on Packagist](http://img.shields.io/packagist/v/rsclg/tiny-mce-setup-all.svg?style=flat)](https://packagist.org/packages/rsclg/tiny-mce-setup-all)
+[![Installations via composer per month](http://img.shields.io/packagist/dm/rsclg/tiny-mce-setup-all.svg?style=flat)](https://packagist.org/packages/rsclg/tiny-mce-setup-all)
+[![Installations via composer total](http://img.shields.io/packagist/dt/rsclg/tiny-mce-setup-all.svg?style=flat)](https://packagist.org/packages/rsclg/tiny-mce-setup-all)
 
-Contao Extension: TinyMceZUpAll
-===============================
+Contao Extension: RscTinyMceZUpAll
+==================================
 
-Special TinyMCE setup which creates the toolbars with all known buttons.
+Special RSC TinyMCE setup which creates the toolbars with all known buttons.
 
 For more information see [TinyMcePluginLoader](https://github.com/cliffparnitzky/TinyMcePluginLoader).
 
@@ -13,15 +13,15 @@ For more information see [TinyMcePluginLoader](https://github.com/cliffparnitzky
 Installation
 ------------
 
-Install the extension via composer: [cliffparnitzky/tiny-mce-setup-all](https://packagist.org/packages/cliffparnitzky/tiny-mce-setup-all).
+Install the extension via composer: [rsclg/tiny-mce-setup-all](https://packagist.org/packages/rsclg/tiny-mce-setup-all).
 
-If you prefer to install it manually, download the latest release here: https://github.com/cliffparnitzky/TinyMceZUpAll/releases
+If you prefer to install it manually, download the latest release here: https://github.com/rsclg/RscTinyMceZUpAll/releases
 
 
 Tracker
 -------
 
-https://github.com/cliffparnitzky/TinyMceZUpAll/issues
+https://github.com/rsclg/RscTinyMceZUpAll/issues
 
 
 Compatibility
@@ -34,7 +34,7 @@ Compatibility
 Dependency
 ----------
 
-- All dependent plugins from [TinyMceBundleAll](https://github.com/cliffparnitzky/TinyMceBundleAll) have to be installed.
+All dependent plugins from [TinyMceBundleAll](https://github.com/cliffparnitzky/TinyMceBundleAll) and [rsclg/tiny-mce-triathlon-icons](https://packagist.org/packages/rsclg/tiny-mce-triathlon-icons) have to be installed.
 
 
 Screenshot
